@@ -16,15 +16,6 @@
 #include "libft.h"
 #include <fcntl.h>
 
-
-typedef struct file_data
-{
-    size_t      length;
-    char        **line;
-    char        **new_adress;
-
-}               File_data;
-
 int		get_next_line(const int fd, char **line);
 
 
