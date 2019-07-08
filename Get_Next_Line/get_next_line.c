@@ -12,50 +12,20 @@
 
 #include "get_next_line.h"
 
-static int		if_file_is_valid(int fd, char **line, char **new_str)
-{
-	if (!**line)
-	{
-		printf("%s", "1");
-		return (-1);
-	}
-	if (fd == -1)
-	{
-		printf("%s", "1.2");
-		return (-1);
-	}
-	if (!*new_str)
-		if (!(*new_str = (char *)malloc(sizeof(char) * (BUFF_SIZE + 1))))
-		{
-			printf("%s", "2");
-			return (-1);
-		}
-	return (0);
-}
+static int		if_file_is_valid(int fd, char **line, char **new_str);
 
-char	*print_new_line(char *new_str, int fd)
-{
-	char	buf[BUFF_SIZE];
-	int		read_ret;
+char	*print_new_line(char *new_str, int fd);
 
-	while ((read_ret = read(fd, buf, BUFF_SIZE)) > 0)
-	{
-			buf[read_ret] = '\0';
-			new_str = ft_strjoin(new_str, buf);
-		}
-	printf("%s", "3");
-	return (new_str);
-}
 
 int		get_next_line(const int fd, char **line)
 {
 	static char		*new_str;
 	int				i;
 
+	printf ("%s", "get_next_line_opened");
 	i = 0;
 	if (if_file_is_valid(fd, &new_str, line) == -1)
 	{
-		printf("%s", "4");
 		return (-1);
 	}
 	if (*new_str)
@@ -78,4 +48,42 @@ int		get_next_line(const int fd, char **line)
 	else
 		(*line) = ft_strdup("");
 	return (0);
+}
+
+static int		if_file_is_valid(int fd, char **line, char **new_str)
+{
+	if (!**line)
+	{
+		printf("%s", "no **line");
+		return (-1);
+	}
+	if (fd == -1)
+	{
+		printf("%s", "fd == -1");
+		return (-1);
+	}
+	if (!*new_str)
+		{
+			if (!(*new_str = (char *)malloc(sizeof(char) * (BUFF_SIZE + 1))))
+			{
+				printf("%s", "no *new_str");
+				return (-1);
+			}
+		}
+	printf ("%s", "if_file_is_valid_OK");
+	return (0);
+}
+
+char	*print_new_line(char *new_str, int fd)
+{
+	char	buf[BUFF_SIZE];
+	int		read_ret;
+
+	while ((read_ret = read(fd, buf, BUFF_SIZE)) > 0)
+	{
+			buf[read_ret] = '\0';
+			new_str = ft_strjoin(new_str, buf);
+		}
+	printf("%s", "3");
+	return (new_str);
 }
