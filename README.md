@@ -1,7 +1,7 @@
 
 ### Welcome to 21 School Projects
 
-There're some projects, created during my study in 21 Programming School. I'm still there, so list will increase. The most part of my beginner's code will be improved in course of training. Some projects were built by me and my fellow mates, so I will change only my own part.
+There're some projects, created during my study in 21 Programming School. I'm still there, so list will increase. The most part of my beginner's code are improving in course of training. Some projects were built by me and my fellow mates, so I will change only my own part.
 
 All projects stored in folders divided by branch/pool/internship. Small explanation down here :)
 
