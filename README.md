@@ -1,4 +1,4 @@
-# 21SchoolProjects
+## Welcome to 21 School Projects
 
 There're some projects, created during my study in 21 Programming School. I'm still there, so list will increase. The most part of my beginner's code will be improved in course of training. Some projects were built by me and my fellow mates, so I will change only my own part.
 
@@ -6,7 +6,7 @@ All projects stored in folders divided by branch/pool/internship. Small explanat
 
 
 
-21's study plan has several branches:
+# 21's study plan has several branches:
 
 - Unix gives you a chance to write your own OS (actually, rewrite existing);
 - Graphics teaches to create vintage versions of Doom, TempleRun, Minecraft and other funny things;
