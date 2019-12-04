@@ -3,7 +3,7 @@
 
 There're some projects, created during my study in 21 Programming School. I'm still there, so list will increase. The most part of my beginner's code are improving in course of training. Some projects were built by me and my fellow mates, so I will change only my own part.
 
-All projects stored in folders divided by branch/pool/internship. Small explanation down here :)
+All projects stored in folders divided by branch/pool. Small explanation down here :)
 
 
 
@@ -15,6 +15,4 @@ All projects stored in folders divided by branch/pool/internship. Small explanat
 - Network and system administration branch introduces you basics of server management and Docker;
 - Web provides us with tools for building our own websites and apps, securing them and even working with marketplaces.
 
-Our first projects should be written in C. Then, School offers us "pools" - two-week bootcamps with tasks in choosing language or technology. Now we could have pools in PHP(+HTML/CSS/JS), C++, Swift, Python (+Django), Ruby on Rails, OCaml, Unity.
-
-Also, by the end of the course we should have at least 2 internships or part-time job in our specialization. 
+Our first projects should be written in C. Then, School offers us "pools" - two-week bootcamps with tasks in choosing language or technology. Now we could have pools in PHP(+HTML/CSS/JS), C++, Swift, Java, Python (+Django), Ruby on Rails, OCaml, Unity.
