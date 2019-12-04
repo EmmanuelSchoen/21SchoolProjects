@@ -15,6 +15,6 @@ All projects stored in folders divided by branch/pool/internship. Small explanat
 - Network and system administration branch introduces you basics of server management and Docker;
 - Web provides us with tools for building our own websites and apps, securing them and even working with marketplaces.
 
-Our first projects should be written in C. Then, School offers us "pools" - two-week camps with tasks in choosing language or technology. Now we could have pools in PHP(+HTML/CSS/JS), C++, Swift, Python (+Django), Ruby on Rails, OCaml, Unity.
+Our first projects should be written in C. Then, School offers us "pools" - two-week bootcamps with tasks in choosing language or technology. Now we could have pools in PHP(+HTML/CSS/JS), C++, Swift, Python (+Django), Ruby on Rails, OCaml, Unity.
 
 Also, by the end of the course we should have at least 2 internships or part-time job in our specialization. 
