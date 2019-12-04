@@ -4,6 +4,8 @@ There're some projects, created during my study in 21 Programming School. I'm st
 
 All projects stored in folders divided by branch/pool/internship. Small explanation down here :)
 
+
+
 21's study plan has several branches:
 
 - Unix gives you a chance to write your own OS (actually, rewrite existing);
